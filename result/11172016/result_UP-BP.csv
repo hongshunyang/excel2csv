@@ -1,0 +1,172 @@
+Term Count p-value
+"inflammatory response" 23 3.1e-18
+"cellular response to interleukin-1" 13 1.8e-14
+"cellular response to lipopolysaccharide" 17 2e-14
+"cell chemotaxis" 11 9.4e-12
+"cellular response to tumor necrosis factor" 12 1.1e-11
+"chemokine-mediated signaling pathway" 10 1.2e-11
+"response to lipopolysaccharide" 14 4.8e-11
+"immune response" 15 9.1e-10
+"cellular response to interferon-gamma" 9 2e-09
+"neutrophil chemotaxis" 9 3.2e-09
+"positive regulation of ERK1 and ERK2 cascade" 12 4e-09
+chemotaxis 10 9.4e-09
+"lipopolysaccharide-mediated signaling pathway" 7 1.3e-08
+"positive regulation of inflammatory response" 8 4.1e-08
+"cellular response to lipoteichoic acid" 5 8e-08
+"response to molecule of bacterial origin" 5 4.5e-07
+"lymphocyte chemotaxis" 6 9.2e-07
+"positive regulation of GTPase activity" 9 1e-06
+"immune system process" 12 4e-06
+aging 9 4.7e-06
+"innate immune response" 12 6.6e-06
+"positive regulation of neutrophil chemotaxis" 5 1.2e-05
+"positive regulation of tumor necrosis factor production" 6 1.3e-05
+"wound healing" 7 1.3e-05
+"response to drug" 11 1.9e-05
+"superoxide anion generation" 4 2.1e-05
+"response to gamma radiation" 5 3.8e-05
+"monocyte chemotaxis" 5 6.3e-05
+"iron ion homeostasis" 5 6.3e-05
+"positive regulation of macrophage chemotaxis" 4 7e-05
+"response to hypoxia" 8 8.1e-05
+"superoxide metabolic process" 4 0.00012
+"positive regulation of chemokine production" 4 0.00014
+"positive regulation of interleukin-6 production" 5 0.00015
+"regulation of cell proliferation" 8 0.00017
+"positive regulation of leukocyte migration" 4 0.00021
+"positive regulation of NF-kappaB transcription factor activity" 6 0.00029
+"defense response to protozoan" 4 0.00053
+"cellular response to organic cyclic compound" 5 0.00063
+"respiratory burst" 3 0.00071
+"positive regulation of smooth muscle cell proliferation" 5 0.00076
+"hydrogen peroxide biosynthetic process" 3 0.00092
+"protein kinase B signaling" 4 0.001
+"acute-phase response" 4 0.001
+"positive regulation of gene expression" 9 0.0011
+"eosinophil chemotaxis" 3 0.0011
+"adhesion of symbiont to host" 3 0.0011
+"toll-like receptor 4 signaling pathway" 3 0.0014
+"negative regulation of tumor necrosis factor production" 4 0.0014
+"positive regulation of superoxide anion generation" 3 0.0017
+"positive regulation of peptidyl-tyrosine phosphorylation" 5 0.0017
+"defense response to Gram-positive bacterium" 5 0.0017
+"positive regulation of tumor necrosis factor biosynthetic process" 3 0.002
+"response to activity" 4 0.003
+"positive regulation of cellular protein metabolic process" 3 0.003
+"positive regulation of monocyte chemotaxis" 3 0.003
+"positive regulation of cell adhesion" 4 0.0031
+"cellular response to ethanol" 3 0.0034
+"regulation of apoptotic process" 6 0.0035
+"positive regulation of angiogenesis" 5 0.0036
+"positive regulation of nitric-oxide synthase biosynthetic process" 3 0.0038
+"cellular response to transforming growth factor beta stimulus" 4 0.0042
+"positive regulation of cell migration" 6 0.0043
+"negative regulation of NF-kappaB transcription factor activity" 4 0.0049
+"MAPK cascade" 4 0.0049
+"positive regulation of peptidyl-serine phosphorylation" 4 0.0065
+"cytokine-mediated signaling pathway" 5 0.0068
+"negative regulation of extrinsic apoptotic signaling pathway via death domain receptors" 3 0.0072
+"leukocyte cell-cell adhesion" 3 0.0072
+"positive regulation of interleukin-8 production" 3 0.0084
+"positive regulation of collagen biosynthetic process" 3 0.0084
+"cellular response to mechanical stimulus" 4 0.0086
+"regulation of angiogenesis" 3 0.0097
+"negative regulation of endothelial cell apoptotic process" 3 0.0097
+"nucleotide-binding oligomerization domain containing 1 signaling pathway" 2 0.01
+"cellular response to high density lipoprotein particle stimulus" 2 0.01
+"negative regulation of interleukin-6 production" 3 0.01
+"cellular response to fibroblast growth factor stimulus" 3 0.01
+"negative regulation of inflammatory response" 4 0.01
+"response to glucocorticoid" 4 0.012
+"protein import into nucleus, translocation" 3 0.012
+"response to bacterium" 3 0.013
+"response to interleukin-1" 3 0.013
+"positive regulation of transcription from RNA polymerase II promoter" 12 0.013
+"transmembrane receptor protein tyrosine kinase signaling pathway" 4 0.015
+"cellular calcium ion homeostasis" 4 0.015
+"cellular response to triacyl bacterial lipopeptide" 2 0.015
+"response to amino acid" 3 0.019
+"cellular response to peptidoglycan" 2 0.02
+"positive regulation of nitric oxide biosynthetic process" 3 0.023
+"nucleotide-binding oligomerization domain containing 2 signaling pathway" 2 0.025
+"cellular response to diacyl bacterial lipopeptide" 2 0.025
+"membrane to membrane docking" 2 0.025
+"toll-like receptor 2 signaling pathway" 2 0.025
+"body fluid secretion" 2 0.025
+"positive regulation of cellular extravasation" 2 0.025
+"developmental process involved in reproduction" 2 0.025
+"positive regulation of odontogenesis" 2 0.025
+"negative regulation of macrophage cytokine production" 2 0.025
+"apoptotic process" 8 0.027
+"response to exogenous dsRNA" 3 0.028
+"response to ethanol" 4 0.029
+"positive regulation of interferon-gamma production" 3 0.029
+"cellular iron ion homeostasis" 3 0.029
+"ion transport" 8 0.03
+"positive regulation of natural killer cell chemotaxis" 2 0.03
+"negative regulation of production of miRNAs involved in gene silencing by miRNA" 2 0.03
+"positive regulation of MAP kinase activity" 3 0.031
+"intrinsic apoptotic signaling pathway in response to DNA damage" 3 0.031
+"negative regulation of neuron death" 3 0.034
+"hyaluronan catabolic process" 2 0.035
+"response to L-ascorbic acid" 2 0.035
+"positive regulation of xenophagy" 2 0.035
+"positive regulation of cell projection organization" 2 0.035
+angiogenesis 5 0.036
+"cell adhesion" 7 0.039
+"defense response to Gram-negative bacterium" 3 0.039
+"regulation of inflammatory response" 3 0.039
+"response to heat" 3 0.039
+"hydrogen peroxide metabolic process" 2 0.04
+"response to peptidoglycan" 2 0.04
+"response to wounding" 3 0.042
+"regulation of blood pressure" 3 0.042
+"positive regulation of cytosolic calcium ion concentration" 4 0.043
+"positive regulation of I-kappaB kinase/NF-kappaB signaling" 4 0.043
+"chronic inflammatory response" 2 0.045
+"macrophage activation" 2 0.045
+"negative regulation of heterotypic cell-cell adhesion" 2 0.045
+"negative regulation of cytokine-mediated signaling pathway" 2 0.045
+"heart development" 5 0.046
+"inner ear development" 3 0.048
+"organ regeneration" 3 0.049
+"response to cholesterol" 2 0.05
+"positive regulation of lipid storage" 2 0.05
+"maternal process involved in parturition" 2 0.05
+"positive regulation of T-helper 1 type immune response" 2 0.05
+"response to muramyl dipeptide" 2 0.055
+"positive regulation of phagocytosis, engulfment" 2 0.055
+"cellular response to nutrient levels" 2 0.055
+"positive regulation of cellular protein catabolic process" 2 0.055
+"defense response to virus" 4 0.055
+"cellular response to glucose stimulus" 3 0.057
+"I-kappaB phosphorylation" 2 0.06
+"negative regulation of interleukin-17 production" 2 0.06
+"cell-matrix adhesion" 3 0.062
+"cellular response to drug" 3 0.064
+"T cell mediated cytotoxicity" 2 0.065
+"leukocyte migration involved in inflammatory response" 2 0.065
+"negative regulation of G-protein coupled receptor protein signaling pathway" 2 0.065
+"cartilage development" 3 0.066
+"response to virus" 3 0.071
+"leukocyte tethering or rolling" 2 0.074
+"macrophage chemotaxis" 2 0.074
+"negative regulation of innate immune response" 2 0.074
+"cell adhesion mediated by integrin" 2 0.074
+"negative regulation of interleukin-12 production" 2 0.074
+"MyD88-dependent toll-like receptor signaling pathway" 2 0.079
+"positive regulation of T cell migration" 2 0.079
+"positive regulation of endothelial cell apoptotic process" 2 0.079
+transport 15 0.08
+"calcium-mediated signaling using intracellular calcium source" 2 0.084
+"response to muscle stretch" 2 0.084
+"acute inflammatory response" 2 0.084
+"cellular response to virus" 2 0.084
+"microglial cell activation" 2 0.088
+"positive regulation of macrophage activation" 2 0.088
+"hematopoietic progenitor cell differentiation" 3 0.09
+"positive regulation of protein import into nucleus" 2 0.093
+"response to vitamin D" 2 0.093
+"G-protein coupled receptor signaling pathway" 14 0.097
+"negative regulation of growth of symbiont in host" 2 0.098

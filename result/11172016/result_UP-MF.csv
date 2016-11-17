@@ -1,0 +1,22 @@
+Term Count p-value
+"cytokine activity" 17 2.4e-14
+"chemokine activity" 10 4.8e-12
+"CXCR chemokine receptor binding" 4 2.3e-05
+"lipoteichoic acid binding" 3 0.00041
+"MHC class I protein binding" 3 0.0032
+"transporter activity" 6 0.006
+"lipopolysaccharide binding" 3 0.0066
+"chemoattractant activity" 3 0.0084
+"CCR chemokine receptor binding" 3 0.01
+"integrin binding" 4 0.017
+"CCR2 chemokine receptor binding" 2 0.026
+"protein binding" 31 0.032
+"type II transforming growth factor beta receptor binding" 2 0.037
+"cysteine-type peptidase activity" 4 0.037
+"protein self-association" 3 0.041
+"superoxide-generating NADPH oxidase activity" 2 0.042
+"growth factor activity" 4 0.042
+"heparin binding" 4 0.048
+"enzyme binding" 6 0.058
+"protein heterodimerization activity" 7 0.059
+"protein homodimerization activity" 9 0.063
