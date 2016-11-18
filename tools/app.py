@@ -16,7 +16,7 @@ APP_RESULT_DIRNAME = 'result'
 
 def usage():
     print('get columns data from single file or directory')
-    print('./app.py -i ../data/10262016 -c 0,1,2,3,4,5,6,7,8,9,10,17,18,19 -s '' ')
+    print('./app.py -i ../data/10262016 -c 0,1,2,3,4,5,6,7,8,9,10,17,18,19 -s "" -d "," ')
 
 def getDataFromCSV(title,spliter,filePath):
 	print("reading data from csv file:%s" % filePath)
@@ -90,10 +90,10 @@ def generateResultFilePath(dataFilePath,prefix=''):
 	print("generated end")
 	return resultFilePath
 
-def getColDataFromFile(dataFilePath,res_cols,space_replace):
-	_getColDataFromFile(dataFilePath,res_cols,space_replace)
+def getColDataFromFile(dataFilePath,res_cols,space_replace,delimiter):
+	_getColDataFromFile(dataFilePath,res_cols,space_replace,delimiter)
 	
-def _getColDataFromFile(dataFilePath,res_cols,space_replace):
+def _getColDataFromFile(dataFilePath,res_cols,space_replace,delimiter):
 	print("acting input   data file")
 	if os.path.isdir(dataFilePath):
 		print("  data file is a directory:%s" % dataFilePath)
@@ -102,17 +102,17 @@ def _getColDataFromFile(dataFilePath,res_cols,space_replace):
                         filename,fileext=os.path.splitext(file)
                         if fileext in ['.csv','.xlsx']:
                              datafileabspath = root+os.sep+file					
-                             _getColDataFromSingleFile(datafileabspath,res_cols,space_replace)
+                             _getColDataFromSingleFile(datafileabspath,res_cols,space_replace,delimiter)
 					
 	elif os.path.isfile(dataFilePath):
             print("  data file is a single file:%s" % dataFilePath)
             datafileabspath = os.path.abspath(dataFilePath)
             filename,fileext=os.path.splitext(datafileabspath)
             if fileext in ['.csv','.xlsx']:
-                _getColDataFromSingleFile(datafileabspath,res_cols,space_replace)
+                _getColDataFromSingleFile(datafileabspath,res_cols,space_replace,delimiter)
 	print("action is end")
 
-def _getColDataFromSingleFile(datafileabspath,res_cols,space_replace):
+def _getColDataFromSingleFile(datafileabspath,res_cols,space_replace,delimiter):
     print("data file :%s" % datafileabspath)
     if not os.path.isfile(datafileabspath):
         print("data file :%s is not exist!" % datafileabspath)
@@ -162,12 +162,12 @@ def _getColDataFromSingleFile(datafileabspath,res_cols,space_replace):
             
             colDataSet.append(row)
                 
-    saveDataToCSV([],colDataSet,resultFilePath)	
+    saveDataToCSV([],colDataSet,resultFilePath,delimiter)	
 
 
 def main():
     try:
-        opts,args = getopt.getopt(sys.argv[1:],"hi:c:s:",["--input=","--columns=","--space-replace="])
+        opts,args = getopt.getopt(sys.argv[1:],"hi:c:s:d:",["--input=","--columns=","--space-replace=","--delimiter="])
     except getopt.GetoptError as err:
         print(err) 
         usage()
@@ -178,6 +178,8 @@ def main():
     res_cols=""
 
     space_replace = ""
+
+    delimiter = ""
 
     for opt,arg in opts:
         if opt in ('-h',"--help"):
@@ -193,11 +195,13 @@ def main():
             res_cols = [int(res_cols[i]) for i in range(len(res_cols)) if i == res_cols.index(res_cols[i])]
         elif opt in ('-s','--space-replace'):
             space_replace = arg
+        elif opt in ('-d','--delimiter'):
+            delimiter = arg
 
 
 
     if input_data != '':
-        getColDataFromFile(input_data,res_cols,space_replace)
+        getColDataFromFile(input_data,res_cols,space_replace,delimiter)
     else:
         sys.exit()
 
