@@ -153,6 +153,15 @@ def _getColDataFromSingleFile(datafileabspath,res_cols,space_replace,delimiter):
         colDataSet=[]       
         for cl in inputFileDataSetOrig:
             row=[]
+            
+            ## 4 class bing ji
+            # if cl[0]==""  and cl[2]=="" and cl[4]=="" and cl[6]=="" :
+                # continue
+
+            ## repFamilySINE = alu
+            if cl[1]!="repFamilySINE" and cl[1]!="Alu":
+                continue
+
             for idx in range(len(cl)):
                 if idx in res_cols:
                     # no value is -1
